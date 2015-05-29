@@ -184,16 +184,16 @@
     \ifthenelse{\equal{\my@title@type@ru}{coursework}}
     {\normalsize \raggedleft
     Научный руководитель:\\
-    \my@title@supervisorPosition@ru\ \my@title@supervisor@ru
+    \my@title@supervisor@ru
     }
     {\normalsize \raggedleft
     Допущена к защите.\\
     Зав. кафедрой:\\
     \my@title@chairHeadPosition@ru\ \my@title@chairHead@ru\sigspace
     Научный руководитель:\\
-    \my@title@supervisorPosition@ru\ \my@title@supervisor@ru\sigspace
+    \my@title@supervisor@ru\sigspace
     Рецензент:\\
-    \my@title@reviewerPosition@ru\ \my@title@reviewer@ru
+    \my@title@reviewer@ru
     }
 \end{center}
 \end{titlepage}
