@@ -29,7 +29,7 @@ val x = sum(1, 2)
 \begin{minted}[frame=lines]{kotlin}
 val x = 1 + 2
 \end{minted}
-\caption{``Встроенный'' вызов \texttt{sum}}
+\caption{``Встроенный'' вызов \texttt{sum}.}
 \end{listing}
 
 Одной из причин добавления встраиваемых функций в Kotlin было
@@ -57,7 +57,7 @@ inline fun filter<T>(list: T, predicate: (T)->Boolean): List<T> {
   return filtered
 }
 \end{minted}
-\caption{Пример функции высшего порядка filter}
+\caption{Пример функции высшего порядка filter.}
 \label{lst:filter-example}
 \end{listing}
 
@@ -93,7 +93,7 @@ fun main(args: Array<String>) {
     println(simpleHtml)
 }
 \end{minted}
-\caption{Пример простого доменно-специфичного языка для описания HTML-разметки}
+\caption{Пример простого доменно-специфичного языка для описания HTML-разметки.}
 \end{listing}
 
 В этом примере блоки, которые следуют за вызовами функций
@@ -122,7 +122,7 @@ JavaScript (к примеру V8 в браузере Google Chrome)
 \begin{itemize}
   \item Функции, которые вызываются недостаточно большое число раз (зависит
   от конкретного компилятора).
-  \item Мегаморфные функции. Современные JIT-компиляторы смотрят
+  \item Мегаморфные функции~\cite{MONOMORPH}. Современные JIT-компиляторы смотрят
   на то, какие типы функция принимает на вход. В данном случае типы
   определяются эвристически из-за динамической природы JavaScript
   (упрощённо можно считать, что разные типы имеют объекты разной структуры).
@@ -153,7 +153,7 @@ fun main(args: Array<String>) {
   }
 }
 \end{minted}
-\caption{Пример использования нелокального возврата}
+\caption{Пример использования нелокального возврата.}
 \end{listing}
 
 В данном примере из анонимной функции, которая передаётся в качестве
@@ -215,7 +215,7 @@ fun main(args: Array<String>) {
 
 \begin{figure}[H]
 \input{tex/diagrams/compilation1}
-\caption{Схема процесса компиляции Kotlin в JavaScript без встраивания функций}
+\caption{Схема процесса компиляции Kotlin в JavaScript без встраивания функций.}
 \label{fig:compilation1}
 \end{figure}
 
